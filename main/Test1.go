@@ -49,3 +49,5 @@ func middleware2(context *gin.Context)  {
 
 	log.Println("exec middleware2")
 }
+
+
