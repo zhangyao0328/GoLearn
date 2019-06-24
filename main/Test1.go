@@ -6,6 +6,14 @@ import (
 	"log"
 )
 
+
+type User struct{
+	 Name string
+	Age int
+}
+
+var Name = "yao"
+
 func main() {
 
 	engine := gin.Default()
